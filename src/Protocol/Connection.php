@@ -61,7 +61,7 @@
      */
     public function __construct($serverList, $blocking = true){
       $this->serverList = $serverList;
-      $this->blocking = true;
+      $this->blocking = $blocking;
     }
 
     /**
